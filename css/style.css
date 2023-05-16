@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@400;500;700&display=swap');
+
+/*font-family: 'Nunito', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+body{
+
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header area css*/
+header{}
+.top-header{
+    
+}
+
+.img-logo{
+    width: 20%;
+}
+
+a.nav-link {
+    font-size: 18px !important;
+    color: black !important;
+    font-family: 'Roboto' !important;
+    padding: 0 10px !important;
+}
+
+ul.navbar-nav.mb-2.mb-lg-0.m-auto {
+    margin-left: -150px !important;
+}
+
+.btn-outline-success {
+    color: #ef414a !important;
+    border-color: #ef414b !important;
+}
+
+.btn-outline-success:hover {
+    color: #fff !important;
+    background-color: #ef4149 !important;
+    border-color: #ef414a !important;
+}
+
+/*header search bar*/
+.nav-item .search-box{
+margin-left: 20px;
+}
+
+.search-txt-input{
+  padding: 5px 12px;
+  font-size:14px;
+  border:1px solid #c8c8c8;
+  border-right:0px;
+  border-top-left-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+  width: 200px;
+  float: left;
+}
+.search-button {
+  padding: 5px 11px;
+  font-size: 14px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: solid 1px #c8c8c8;
+  border-right: 0px;
+  background: #fc2260;
+  border-top-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  position: relative;
+  left:-5px;
+  float: left;
+}
+
+.search-button:hover {
+    color: #fc2260;
+    /*background-color: #a50432;*/
+    border-color: #ef4351;
+}
+
+/* Fixes submit button height problem in Firefox */
+.search-button::-moz-focus-inner {
+  border: 0;
+}
+
+/*header area css*/
+
+/*modal css*/
+/*.modal-title {
+    margin-bottom: 50px;
+    line-height: 1.5;
+}*/
+
+/*.modal-text {
+  margin: 10px;
+}
+.modal-text {
+    margin-top: 50px;
+   /* margin-left: 40px;*/
+/*    margin-bottom: 1rem;
+}*/
+
+.btn-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*signup page css*/
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 40px;*/
+    /* margin-top: calc(var(--bs-gutter-y) * -1); */
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+/*.h1,h1,{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}*/
+
+.col-6{
+    text: center;
+    width: 100%;
+}
+/*slider css*/
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #000;
+    text-align: center;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon  {
+    border: 2px solid red;
+    padding: 18px;
+    border-radius: 10px !important;
+}
+/*slider css*/
+
+/*car area css*/
+/*.card{
+
+    padding: 10px 0;*/
+
+    .singel-car{
+        
+    }
+
+
+/*.h1, h1 {
+    font-size: 2.5rem;
+    padding-top: 40px;
+    margin top: 2;
+}*/
+
+.Airport{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Airport:hover {
+    color: #fc2260;
+    /*background-color: #a50432;*/
+    border-color: #ef4351;
+}
+
+.carRental{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.HouseRental{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.card:hover {
+    /*color: #fff;*/
+    /*background-color: #fc2260;*/
+    border-color: #ef4351;
+}
+
+.carRental:hover {
+    color: #fc2260;
+    /*background-color: #a50432;*/
+    border-color: #ef4351;
+}
+.HouseRental:hover {
+    color: #fc2260;
+    /*background-color: #a50432;*/
+    border-color: #ef4351;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #fc2260;
+    border-color: #ef4351;
+}
+
+.btn-primary:hover {
+    color: #fc2260;
+    background-color: #fff;
+    border-color: #ef4351;
+}
+
+
+/*car area css*/
+
+/*about area css*/
+.about-us{
+
+    padding: 80px 0;
+}
+.about-text {
+    background-color: #fc3f83;
+    padding: 80px 80px 50px 100px;
+    height: 100%;
+    position: relative;
+    z-index: -5;
+    color: #fff;
+}
+
+/*about area css*/
+
+
+
+
+/*teammembers css*/
+
+
+.Team{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Team:hover {
+    color: #fc2260;
+    /*background-color: #a50432;*/
+    border-color: #ef4351;
+    }
+.Teamcard:hover {
+    color: #fc2260;
+    /*background-color: #a50432;*/
+    border-color: #ef4351;
+    }
+
+
+
+/*footer css*/
+
+
+
+footer.ftco-footer.ftco-bg-dark.ftco-section {
+    background: #fc2260;
+    color: #fff !important;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+.py-2 {
+    padding-top: .5rem!important;
+    padding-bottom: .5rem!important;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto';
+}
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.signup{
+    color: #fc2260 !important;
+    }
+.signup-form{
+    max-width: 900px !important
+}
